@@ -24,8 +24,8 @@
 ## Step One (Retrieving Patients Transcriptome Data)
 
 
-[*] The following data was extracted from the SRA database using the links provided below with the 'wget' command in our compbio server.
-Donor 1 (2dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896360
+- [ ] The following data was extracted from the SRA database using the links provided below with the 'wget' command in our compbio server.
+- [1] Donor 1 (2dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896360
 Donor 1 (6dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896363 
 Donor 3 (2dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896374 
 Donor 3 (6dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896375
