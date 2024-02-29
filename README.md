@@ -14,12 +14,12 @@
 
 ## Project Workflow (Approach)
 
-- [x] **Step 1:** Download and extract paired-end fastq files from the SRA database
+- [x] _**Step 1:**_ Download and extract paired-end fastq files from the SRA database
 - [x] _**Step 2:**_ Using biopython's Entrez and other libraries, download a reference genome and extract only coding sequences from it to be used to build a transcriptome index
-- [x] Step 3: Using Kallisto, build a transcriptome index for the reference CDS sequences extracted
-- [x] Step 4: Again, with Kallisto, quantify TPM for each CDS in each transcriptome, while finding the mean, midian, minimum and maximum
-- [x] Step 5: Find differentially expressed genes between two conditions (here, my target is between 2dpi and 6 dpi)
-- [x] Find other virus strains that have genes encoding the most differentially expressed genes using BLAST
+- [x] _**Step 3:**_ Using Kallisto, build a transcriptome index for the reference CDS sequences extracted
+- [x] _**Step 4:**_ Again, with Kallisto, quantify TPM for each CDS in each transcriptome, while finding the mean, midian, minimum and maximum
+- [x] _**Step 5:**_ Find differentially expressed genes between two conditions (here, my target is between 2dpi and 6 dpi)
+- [x] _**Step 6:**_ Find other virus strains that have genes encoding the most differentially expressed genes using BLAST
 
 ## Step One (Retrieving Patients Transcriptome Data)
 
