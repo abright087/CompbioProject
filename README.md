@@ -14,12 +14,12 @@
 
 ## Project Workflow (Approach)
 
-- [ ] Step 1: Download and extract paired-end fastq files from the SRA database
-- [ ] Step 2: Using biopython's Entrez and other libraries, download a reference genome and extract only coding sequences from it to be used to build a transcriptome index
-- [ ] Step 3: Using Kallisto, build a transcriptome index for the reference CDS sequences extracted
-- [ ] Step 4: Again, with Kallisto, quantify TPM for each CDS in each transcriptome, while finding the mean, midian, minimum and maximum
-- [ ] Step 5: Find differentially expressed genes between two conditions (here, my target is between 2dpi and 6 dpi)
-- [ ] Find other virus strains that have genes encoding the most differentially expressed genes using BLAST
+- [x] Step 1: Download and extract paired-end fastq files from the SRA database
+- [x] Step 2: Using biopython's Entrez and other libraries, download a reference genome and extract only coding sequences from it to be used to build a transcriptome index
+- [x] Step 3: Using Kallisto, build a transcriptome index for the reference CDS sequences extracted
+- [x] Step 4: Again, with Kallisto, quantify TPM for each CDS in each transcriptome, while finding the mean, midian, minimum and maximum
+- [x] Step 5: Find differentially expressed genes between two conditions (here, my target is between 2dpi and 6 dpi)
+- [x] Find other virus strains that have genes encoding the most differentially expressed genes using BLAST
 
 ## Step One (Retrieving Patients Transcriptome Data)
 
@@ -29,7 +29,7 @@
 2. Donor 1 (6dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896363 
 3. Donor 3 (2dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896374 
 4. Donor 3 (6dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896375
-      - [x] *dpi* == days post infection
+      - [x] *dpi* == **days post infection**
    
 ### Creating a subdirectory for my transcripts
 
