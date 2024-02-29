@@ -45,16 +45,18 @@
 4. >> wget https://www.ncbi.nlm.nih.gov/sra/SRX2896375
 
 #### Extracting to get paired-end fastq files from my downloaded files
-> fastq-dump -I --split-files SRX2896360
->> fastq-dump -I --split-files SRX2896363
->> fastq-dump -I --split-files SRX2896374
->> fastq-dump -I --split-files SRX2896375
+1. >> fastq-dump -I --split-files SRX2896360
+2. >> fastq-dump -I --split-files SRX2896363
+3. >> fastq-dump -I --split-files SRX2896374
+4. >> fastq-dump -I --split-files SRX2896375
 
 #### Checking out the files in my 'Project' folder
->> ls -lh ./Project
+1. >> ls -lh ./Project
 '''The **--split-files** option separates the files into both forward and reverse reads
  
 # Code
+- [ ] - to be added soon
+
 
 # References
 1. https://github.com/pachterlab/kallisto
