@@ -29,7 +29,8 @@
 2. Donor 1 (6dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896363 
 3. Donor 3 (2dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896374 
 4. Donor 3 (6dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896375
-
+      - [x] *dpi* == days post infection
+   
 ### Creating a subdirectory for my transcripts
 
 >> pwd ### Check my current directrory
