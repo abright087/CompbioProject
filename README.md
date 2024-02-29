@@ -24,41 +24,40 @@
 ## Step One (Retrieving Patients Transcriptome Data)
 
 
-- [ ] The following data was extracted from the SRA database using the links provided below with the 'wget' command in our compbio server.
-- [1] Donor 1 (2dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896360
-Donor 1 (6dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896363 
-Donor 3 (2dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896374 
-Donor 3 (6dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896375
+- [X] The following data was extracted from the SRA database using the links provided below with the 'wget' command in our compbio server.
+1. Donor 1 (2dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896360
+2. Donor 1 (6dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896363 
+3. Donor 3 (2dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896374 
+4. Donor 3 (6dpi): https://www.ncbi.nlm.nih.gov/sra/SRX2896375
 
 ### Creating a subdirectory for my transcripts
 
-> pwd ### Check my current directrory
+>> pwd ### Check my current directrory
 '/home/basante1' ### This is my current directory
 
-> mkdir Project ### Creating a folder called 'Project' to hold my data
-> cd ./Project ## Moving into my created folder 
+>> mkdir Project ### Creating a folder called 'Project' to hold my data
+>> cd ./Project ## Moving into my created folder 
 
 #### Downloading the Sequences to my 'Project' folder
-> wget https://www.ncbi.nlm.nih.gov/sra/SRX2896360
-> wget https://www.ncbi.nlm.nih.gov/sra/SRX2896363
-> wget https://www.ncbi.nlm.nih.gov/sra/SRX2896374
-> wget https://www.ncbi.nlm.nih.gov/sra/SRX2896375
+>> wget https://www.ncbi.nlm.nih.gov/sra/SRX2896360
+>> wget https://www.ncbi.nlm.nih.gov/sra/SRX2896363
+>> wget https://www.ncbi.nlm.nih.gov/sra/SRX2896374
+>> wget https://www.ncbi.nlm.nih.gov/sra/SRX2896375
 
 #### Extracting to get paired-end fastq files from my downloaded files
-fastq-dump -I --split-files SRX2896360
-fastq-dump -I --split-files SRX2896363
-fastq-dump -I --split-files SRX2896374
-fastq-dump -I --split-files SRX2896375
+> fastq-dump -I --split-files SRX2896360
+>> fastq-dump -I --split-files SRX2896363
+>> fastq-dump -I --split-files SRX2896374
+>> fastq-dump -I --split-files SRX2896375
 
 #### Checking out the files in my 'Project' folder
-> ls -lh ./Project
+>> ls -lh ./Project
 '''The **--split-files** option separates the files into both forward and reverse reads
  
-
-
-# Methods
-
 # Code
 
 # References
+1. https://github.com/pachterlab/kallisto
+2. https://pachterlab.github.io/sleuth_walkthroughs/trapnell/analysis.html
+3. https://pachterlab.github.io/sleuth/
 
