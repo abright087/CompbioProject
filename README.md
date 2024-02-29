@@ -2,8 +2,8 @@
 
 # Introduction
 
-[ ] This project aims to analyze transcriptome data of patients with Human Cytomegalovirus (HCMV) infection.
-[ ] Data for analysis is obtained from the NCBI's SRA database.
+[ x ] This project aims to analyze transcriptome data of patients with Human Cytomegalovirus (HCMV) infection.
+[ x ] Data for analysis is obtained from the NCBI's SRA database.
 
 # Step One (Retreiving Patients Transcriptome Data)
 
