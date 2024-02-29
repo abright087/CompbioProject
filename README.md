@@ -15,7 +15,7 @@
 ## Project Workflow (Approach)
 
 - [x] **Step 1:** Download and extract paired-end fastq files from the SRA database
-- [x] Step 2: Using biopython's Entrez and other libraries, download a reference genome and extract only coding sequences from it to be used to build a transcriptome index
+- [x] _**Step 2:**_ Using biopython's Entrez and other libraries, download a reference genome and extract only coding sequences from it to be used to build a transcriptome index
 - [x] Step 3: Using Kallisto, build a transcriptome index for the reference CDS sequences extracted
 - [x] Step 4: Again, with Kallisto, quantify TPM for each CDS in each transcriptome, while finding the mean, midian, minimum and maximum
 - [x] Step 5: Find differentially expressed genes between two conditions (here, my target is between 2dpi and 6 dpi)
