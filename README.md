@@ -39,10 +39,10 @@
 >> cd ./Project ## Moving into my created folder 
 
 #### Downloading the Sequences to my 'Project' folder
->> wget https://www.ncbi.nlm.nih.gov/sra/SRX2896360
->> wget https://www.ncbi.nlm.nih.gov/sra/SRX2896363
->> wget https://www.ncbi.nlm.nih.gov/sra/SRX2896374
->> wget https://www.ncbi.nlm.nih.gov/sra/SRX2896375
+1. >> wget https://www.ncbi.nlm.nih.gov/sra/SRX2896360
+2. >> wget https://www.ncbi.nlm.nih.gov/sra/SRX2896363
+3. >> wget https://www.ncbi.nlm.nih.gov/sra/SRX2896374
+4. >> wget https://www.ncbi.nlm.nih.gov/sra/SRX2896375
 
 #### Extracting to get paired-end fastq files from my downloaded files
 > fastq-dump -I --split-files SRX2896360
