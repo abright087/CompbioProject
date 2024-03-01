@@ -50,3 +50,5 @@ if __name__ == "__main__":
     logfile = "PipelineProject.log" ##My logfile
     write_count_to_file(cds_count, logfile)
     print("Number of CDS sequences from"+ genome_accession + " written to:", logfile)
+    
+     
