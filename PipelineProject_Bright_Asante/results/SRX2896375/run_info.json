@@ -1,0 +1,13 @@
+{
+	"n_targets": 169,
+	"n_bootstraps": 30,
+	"n_processed": 2476889,
+	"n_pseudoaligned": 1421377,
+	"n_unique": 1368910,
+	"p_pseudoaligned": 57.4,
+	"p_unique": 55.3,
+	"kallisto_version": "0.50.1",
+	"index_version": 13,
+	"start_time": "Fri Mar  1 00:08:30 2024",
+	"call": "kallisto quant -i index.idx -o results/SRX2896375 -b 30 -t 4 SRX2896375_1.fastq SRX2896375_2.fastq"
+}
